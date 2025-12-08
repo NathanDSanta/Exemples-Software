@@ -23,12 +23,12 @@ public abstract class Arma {
   @Override
   public String toString() {
     String sortida = descripcio() + "\n"
-        + "Dany: " + dany()
-        + "Retroces: " + retroces()
-        + "Cadencia: " + cadencia()
-        + "Recarrega: " + recarrega()
-        + "Bales: " + nombreBales()
-        + "Silencios?: " + (silencios() ? "Si" : "No");
+        + "\tDany: " + dany() + "\n"
+        + "\tRetroces: " + retroces() + "\n"
+        + "\tCadencia: " + cadencia() + "\n"
+        + "\tRecarrega: " + recarrega() + "\n"
+        + "\tBales: " + nombreBales() + "\n"
+        + "\tSilencios?: " + (silencios() ? "Si" : "No") + "\n";
     return sortida;
   };
 
